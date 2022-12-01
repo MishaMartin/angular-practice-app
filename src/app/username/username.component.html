@@ -2,11 +2,10 @@
 <br>
 <input
     type="text"
-    class="username-control"
+    class="form-control"
     [(ngModel)]="addedUsername">
-<br>
 <button class="btn btn-primary"
-[disabled]="!username"
+[disabled]="addedUsername === ''"
 (click)="onAddUsername()"
->Reset Username</button>
+>Reset User</button>
 <p>{{ usernameStatus }}</p>

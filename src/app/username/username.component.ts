@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./username.component.css']
 })
 export class UsernameComponent implements OnInit {
-  username = false;
   addedUsername = '';
   usernameStatus = 'No username added';
 
