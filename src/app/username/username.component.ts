@@ -11,9 +11,6 @@ export class UsernameComponent implements OnInit {
 
 
   constructor() {
-    setTimeout(() => {
-      this.username = true;
-    }, 2000);
    }
 
   ngOnInit(): void {
